@@ -1,0 +1,19 @@
+{
+  "name": "rainbow",
+  "fontMode": "nerd",
+  "separator": { "nerd": "\ue0b0", "plain": ">", "emoji": "▶" },
+  "segments": [
+    { "type": "user", "foreground": "white", "background": "red",
+      "icon": { "nerd": "\uf007", "emoji": "👤", "plain": "" }, "style": "powerline" },
+    { "type": "host", "foreground": "black", "background": "yellow",
+      "icon": { "nerd": "\uf108", "emoji": "💻", "plain": "@" }, "style": "powerline" },
+    { "type": "path", "foreground": "black", "background": "green",
+      "icon": { "nerd": "\uf07b", "emoji": "📁", "plain": "" }, "style": "powerline" },
+    { "type": "git", "foreground": "white", "background": "blue",
+      "icon": { "nerd": "\ue725", "emoji": "🌿", "plain": "git:" }, "style": "powerline" },
+    { "type": "time", "foreground": "white", "background": "magenta",
+      "icon": { "nerd": "\uf017", "emoji": "🕐", "plain": "" }, "style": "powerline" },
+    { "type": "status", "foreground": "black", "background": "cyan",
+      "icon": { "nerd": "\uf42e", "emoji": "•", "plain": "" }, "style": "powerline" }
+  ]
+}

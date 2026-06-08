@@ -1,0 +1,15 @@
+{
+  "name": "stealth",
+  "fontMode": "nerd",
+  "separator": { "nerd": "\ue0b1", "plain": "|", "emoji": "·" },
+  "segments": [
+    { "type": "path", "foreground": "gray", "background": "",
+      "icon": { "nerd": "\uf07b", "emoji": "📁", "plain": "" }, "style": "plain" },
+    { "type": "git", "foreground": "brightBlack", "background": "",
+      "icon": { "nerd": "\ue0a0", "emoji": "", "plain": "git:" }, "style": "plain" },
+    { "type": "admin", "foreground": "brightBlack", "background": "",
+      "icon": { "nerd": "\uf21b", "emoji": "🔒", "plain": "#" }, "style": "plain" },
+    { "type": "status", "foreground": "gray", "background": "",
+      "icon": { "nerd": "\uf42e", "emoji": "›", "plain": ">" }, "style": "plain" }
+  ]
+}

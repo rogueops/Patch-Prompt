@@ -1,0 +1,19 @@
+{
+  "name": "neon",
+  "fontMode": "nerd",
+  "separator": { "nerd": "\ue0b0", "plain": ">", "emoji": "▶" },
+  "segments": [
+    { "type": "user", "foreground": "black", "background": "brightMagenta",
+      "icon": { "nerd": "\uf007", "emoji": "👤", "plain": "" }, "style": "powerline" },
+    { "type": "path", "foreground": "black", "background": "brightCyan",
+      "icon": { "nerd": "\uf07c", "emoji": "📂", "plain": "" }, "style": "powerline" },
+    { "type": "git", "foreground": "black", "background": "brightGreen",
+      "icon": { "nerd": "\ue725", "emoji": "🌿", "plain": "git:" }, "style": "powerline" },
+    { "type": "runtime", "foreground": "black", "background": "brightYellow",
+      "icon": { "nerd": "\uf085", "emoji": "⚙", "plain": "" }, "style": "powerline" },
+    { "type": "time", "foreground": "black", "background": "brightBlue",
+      "icon": { "nerd": "\uf017", "emoji": "🕐", "plain": "" }, "style": "powerline" },
+    { "type": "status", "foreground": "white", "background": "brightMagenta",
+      "icon": { "nerd": "\uf42e", "emoji": "•", "plain": "" }, "style": "powerline" }
+  ]
+}
